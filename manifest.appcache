@@ -1,0 +1,20 @@
+CACHE MANIFEST
+
+CACHE:
+/Camera/
+/Camera/favicon.svg
+/Camera/manifest.appcache
+/Camera/manifest.webmanifest
+/Camera/Godox/
+/Camera/Godox/currentTriggers.csv
+/Camera/Godox/oldTriggers.csv
+/Camera/Godox/onCameraFlashes.csv
+/Camera/Godox/macroFlashes.csv
+/Camera/Godox/offCameraFlashes.csv
+/Camera/Godox/studioFlashes.csv
+/Camera/Godox/oldStudioFlashes.csv
+/Camera/YongNuo/
+https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css
+https://cdn.jsdelivr.net/npm/core-js-bundle@latest/minified.min.js
+https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
+https://cdn.jsdelivr.net/gh/HubSpot/sortable/js/sortable.min.js
