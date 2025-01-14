@@ -5,3 +5,8 @@ h2:not(:first-of-type) {
 .autoOverflowXTable {
   overflow-x: auto;
 }
+
+th,
+td {
+  padding: 0.125rem !important;
+}
