@@ -23,8 +23,12 @@ function getCSV(url) {
 
 function listToTable(id, list, headers) {
   const table = document.getElementById(id);
+  const newDiv = document.createElement('div');
+  newDiv.className = 'autoOverflowXTable';
+  table.parentNode.insertBefore(newDiv, table);
+  newDiv.appendChild(table);
   const thead = `<thead>${headers.map(header => `<th>${header}</th>`).join('')}</thead>`;
   const tbody = `<tbody>${list.map(row => `<tr>${headers.map(header => `<td>${row[header]}</td>`).join('')}</tr>`).join('')}</tbody>`;
   table.innerHTML = thead + tbody;
-  Sortable.initTable(table)
+  Sortable.initTable(table);
 }
