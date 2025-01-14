@@ -1,4 +1,4 @@
-"Flashes","Power (Ws)","Wireless 2.4GHz X Control System","Battery","TTL","HSS","Modelling Lamp (mW)","Modelling Lamp Type","Min. Power (1/n)","Max Recycle Time (ms)","Min. Recycle Time (ms)","Channels","Groups","ID","Firmware Upgrade","Status"
+"Flashes","Power (Ws)","Wireless 2.4GHz X Control System","Battery","TTL","HSS","Modelling Lamp (mW)","Modelling Lamp Type","Min. Power (1/n)","Max. Recycle Time (ms)","Min. Recycle Time (ms)","Channels","Groups","ID","Firmware Upgrade","Status"
 "Lux Master","Unknown","Yes, Built-In","Built-in Li-ion","Yes","Yes","0","No","256","1800","<1800","32","5","Yes","Yes",""
 "AD100Pro","100","Yes, Built-In","1x WB100(A/B)/VB30/VB26(A/B)","Yes","Yes","1800","LED","256","1500","10","32","5","Yes","Yes",""
 "AD200","200","Yes, Built-In","1x WB29(A/B)/WB300P","Yes","Yes","Unknown","LED","128","2100","10","32","5","Yes","Yes","EOL"
