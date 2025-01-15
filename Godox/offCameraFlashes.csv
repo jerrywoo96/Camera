@@ -1,4 +1,4 @@
-"Flashes","Power (Ws)","Wireless 2.4GHz X Control System","Battery","TTL","HSS","Modelling Lamp (mW)","Modelling Lamp Type","Min. Power (1/n)","Max. Recycle Time (ms)","Min. Recycle Time (ms)","Channels","Groups","ID","Firmware Upgrade","Status"
+"Flashes","Pwr (Ws)","WL XCS","Battery","TTL","HSS","Modelling Lamp (mW)","Modelling Lamp Type","Min Pwr (1/n)","Max Recycle Time (ms)","Min Recycle Time (ms)","CHs","Grps","ID","FW Up","Status"
 "Lux Master","Unknown","Yes, Built-In","Built-in Li-ion","Yes","Yes","0","No","256","1800","<1800","32","5","Yes","Yes",""
 "AD100Pro","100","Yes, Built-In","1x WB100(A/B)/VB30/VB26(A/B)","Yes","Yes","1800","LED","256","1500","10","32","5","Yes","Yes",""
 "AD200","200","Yes, Built-In","1x WB29(A/B)/WB300P","Yes","Yes","Unknown","LED","128","2100","10","32","5","Yes","Yes","EOL"
@@ -15,5 +15,5 @@
 "AD600M/AD600BM","600","Yes, Built-In","1x WB87","No","Yes","10000","LED COB","256","2500","10","32","5","Yes","Yes","Discontinued"
 "AD600Pro","600","Yes, Built-In","1x WB26","Yes","Yes","38000","LED COB","256","900","10","32","5","Yes","Yes",""
 "AD600Pro II","600","Yes, Built-In","1x WB26","Yes","Yes","40000","LED COB","512","900","10","32","16","Yes","Yes",""
-"Flashpoint XPLOR 600 SE (Adorama Exclusive)","600","Yes, Built-In","1x WB87","Yes","Yes","40000","LED COB","256","1900","10","32","16","Yes","Yes",""
+"XPLOR 600 SE","600","Yes, Built-In","1x WB87","Yes","Yes","40000","LED COB","256","1900","10","32","16","Yes","Yes",""
 "AD1200Pro","1200","Yes, Built-In","1x WB1200H","Yes","Yes","40000","LED COB","256","2000","10","32","5","Yes","Yes",""

@@ -1,4 +1,4 @@
-"Flashes","Wireless 2.4GHz X Control System","Power (Ws)","Modelling Lamp (W)","Modelling Lamp Type","Min. Power (1/n)","Max. Recycle Time (ms)","Min. Recycle Time (ms)","Channels","Groups","ID","Firmware Upgrade","Status"
+"Flashes","WL XCS","Pwr (Ws)","Modelling Lamp (W)","Modelling Lamp Type","Min Pwr (1/n)","Max Recycle Time (ms)","Min Recycle Time (ms)","CHs","Grps","ID","FW Up","Status"
 "E120","Yes, Using XTR16","120","75","Halogen Bulb","8","2000","300","16","16","No","No","EOL"
 "E160","Yes, Using XTR16","160","75","Halogen Bulb","8","2000","300","16","16","No","No","EOL"
 "E250","Yes, Using XTR16","250","75","Halogen Bulb","8","2500","400","16","16","No","No",""
