@@ -1,4 +1,4 @@
-"Trigger","TTL Sys.","TX Prot.","RX Prot.","TTL","HSS","Grp","Pwr","ID","FW Up","Battery"
+"Trigger","TTL Sys","TX Prot","RX Prot","TTL","HSS","Grp","Pwr","ID","FW Up","Battery"
 "RF-600TX","No","602","No","No","No","No","No","No","No","1x CR2"
 "RF-601TX","No","602","No","No","No","No","No","No","No","1x CR2"
 "RF-601RX","No","No","602","No","No","No","No","No","No","2x AAA"
