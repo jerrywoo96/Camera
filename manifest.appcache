@@ -2,10 +2,12 @@ CACHE MANIFEST
 
 CACHE:
 /Camera/
+/Camera/index.html
 /Camera/favicon.svg
 /Camera/manifest.appcache
 /Camera/manifest.webmanifest
 /Camera/Godox/
+/Camera/Godox/index.html
 /Camera/Godox/currentTriggers.csv
 /Camera/Godox/oldTriggers.csv
 /Camera/Godox/onCameraFlashes.csv
@@ -14,6 +16,13 @@ CACHE:
 /Camera/Godox/studioFlashes.csv
 /Camera/Godox/oldStudioFlashes.csv
 /Camera/YongNuo/
+/Camera/YongNuo/index.html
+/Camera/YongNuo/flashes.csv
+/Camera/YongNuo/triggers.csv
+/Camera/Phottix/
+/Camera/Phottix/index.html
+/Camera/Phottix/flashes.csv
+/Camera/Phottix/triggers.csv
 https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css
 https://cdn.jsdelivr.net/npm/core-js-bundle@latest/minified.min.js
 https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
