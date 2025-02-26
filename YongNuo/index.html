@@ -47,8 +47,10 @@
         getCSV("./flashes.csv")
       ]);
 
-      listToTable('triggers', triggers.data, triggers.header);
-      listToTable('flashes', flashes.data, flashes.header);
+      await Promise.all([
+        listToTable('triggers', triggers.data, triggers.header),
+        listToTable('flashes', flashes.data, flashes.header)
+      ]);
 
     });
   </script>

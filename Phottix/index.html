@@ -50,9 +50,11 @@
         getCSV("./compatibility.csv")
       ]);
 
-      listToTable('triggers', triggers.data, triggers.header);
-      listToTable('flashes', flashes.data, flashes.header);
-      listToTable('compatibility', compatibility.data, compatibility.header);
+      await Promise.all([
+        listToTable('triggers', triggers.data, triggers.header),
+        listToTable('flashes', flashes.data, flashes.header),
+        listToTable('compatibility', compatibility.data, compatibility.header)
+      ]);
 
     });
   </script>

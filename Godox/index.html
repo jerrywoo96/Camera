@@ -62,13 +62,15 @@
         getCSV("./legacyStudioFlashes.csv")
       ]);
 
-      listToTable('currentTriggers', currentTriggers.data, currentTriggers.header);
-      listToTable('legacyTriggers', legacyTriggers.data, legacyTriggers.header);
-      listToTable('onCameraFlashes', onCameraFlashes.data, onCameraFlashes.header);
-      listToTable('macroFlashes', macroFlashes.data, macroFlashes.header);
-      listToTable('offCameraFlashes', offCameraFlashes.data, offCameraFlashes.header);
-      listToTable('studioFlashes', studioFlashes.data, studioFlashes.header);
-      listToTable('legacyStudioFlashes', legacyStudioFlashes.data, legacyStudioFlashes.header);
+      await Promise.all([
+        listToTable('currentTriggers', currentTriggers.data, currentTriggers.header),
+        listToTable('legacyTriggers', legacyTriggers.data, legacyTriggers.header),
+        listToTable('onCameraFlashes', onCameraFlashes.data, onCameraFlashes.header),
+        listToTable('macroFlashes', macroFlashes.data, macroFlashes.header),
+        listToTable('offCameraFlashes', offCameraFlashes.data, offCameraFlashes.header),
+        listToTable('studioFlashes', studioFlashes.data, studioFlashes.header),
+        listToTable('legacyStudioFlashes', legacyStudioFlashes.data, legacyStudioFlashes.header)
+      ]);
 
     });
   </script>
