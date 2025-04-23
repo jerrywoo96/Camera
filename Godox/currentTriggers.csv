@@ -1,17 +1,18 @@
-Trigger,Frequency,Role,TTL,HSS,Top-Hotshoe,AF Assist,BT,CHs,Grps,ID,FW Up,Pwr,Status
-X1R,2.4 GHz,RX,Yes,Yes,Yes,No,No,32,5,Yes,Yes,2x AA,
-X1T,2.4 GHz,TX,Yes,Yes,Yes,Yes,No,32,5,Yes,Yes,2x AA,EOL
-X2T,2.4 GHz,TX,Yes,Yes,Yes,Yes,Yes,32,5,Yes,Yes,2x AA,
-X3,2.4 GHz,TX,Yes,Yes,No,No,No,32,16,Yes,Yes,Built-in Li-ion,
-XPro,2.4 GHz,TX,Yes,Yes,No,Yes,No,32,16,Yes,Yes,2x AA,
-XPro II,2.4 GHz,TX,Yes,Yes,No,Yes,Yes,32,16,Yes,Yes,2x AA,
-XPro II S+,2.4 GHz,TX,Yes,Yes,No,Yes,Yes,32,16,Yes,Yes,2x AA,
-R2 Single Pin Transceiver,2.4 GHz,TX/RX,No,No,Yes,No,No,32,5,Yes,Yes,2x AA,
-R2 Pro MarkII,2.4 GHz,TX,Yes,Yes,No,Yes,Yes,32,16,Yes,Yes,2x AA,
-FusionTLC Raven,2.4 GHz,TX,Yes,Yes,No,Yes,No,32,4,Unknown,Yes,Built-in Li-ion,
-XT16,2.4 GHz,TX,No,No,No,Yes,No,16,16,No,No,2x AA,EOL
-XT32,2.4 GHz,TX,No,Yes,No,Yes,No,16,16,No,No,2x AA,EOL
-XTR16,2.4 GHz,RX,No,Yes,No,No,No,16,16,No,No,From Flash,EOL
-XTR16S,2.4 GHz,RX,No,Yes,No,No,No,16,16,No,No,From Flash,EOL
-FT433,433 MHz,TX,Yes,Yes,No,Yes,Yes,32,16,Yes,Yes,2x AA,
-FR433,433 MHz,RX,Yes,Yes,No,No,No,32,16,Yes,No,From Flash,
+"Trigger","Frequency","Role","TTL","HSS","Top-Hotshoe","AF Assist","BT","CHs","Grps","ID","FW Up","Pwr","Status"
+"X1R","2.4 GHz","RX","Yes","Yes","Yes","No","No","32","5","Yes","Yes","2x AA",""
+"X1T","2.4 GHz","TX","Yes","Yes","Yes","Yes","No","32","5","Yes","Yes","2x AA","EOL"
+"X2T","2.4 GHz","TX","Yes","Yes","Yes","Yes","Yes","32","5","Yes","Yes","2x AA",""
+"X3","2.4 GHz","TX","Yes","Yes","No","No","No","32","16","Yes","Yes","Built-in Li-ion",""
+"XPro","2.4 GHz","TX","Yes","Yes","No","Yes","No","32","16","Yes","Yes","2x AA",""
+"XPro II","2.4 GHz","TX","Yes","Yes","No","Yes","Yes","32","16","Yes","Yes","2x AA",""
+"XPro II S+","2.4 GHz","TX","Yes","Yes","No","Yes","Yes","32","16","Yes","Yes","2x AA",""
+"R2 Single Pin Transceiver","2.4 GHz","TX/RX","No","No","Yes","No","No","32","5","Yes","Yes","2x AA",""
+"R2 Pro MarkII","2.4 GHz","TX","Yes","Yes","No","Yes","Yes","32","16","Yes","Yes","2x AA",""
+"FusionTLC Raven","2.4 GHz","TX","Yes","Yes","No","Yes","No","32","4","Unknown","Yes","Built-in Li-ion",""
+"XT16","2.4 GHz","TX","No","No","No","Yes","No","16","16","No","No","2x AA","EOL"
+"XT32","2.4 GHz","TX","No","Yes","No","Yes","No","16","16","No","No","2x AA","EOL"
+"XTR16","2.4 GHz","RX","No","Yes","No","No","No","16","16","No","No","From Flash","EOL"
+"XTR16S","2.4 GHz","RX","No","Yes","No","No","No","16","16","No","No","From Flash","EOL"
+"FT433","Digital 433 MHz","TX","Yes","Yes","No","Yes","Yes","32","16","Yes","Yes","2x AA",""
+"FR433","Digital 433 MHz","RX","Yes","Yes","No","No","No","32","16","Yes","No","From Flash",""
+"RT-16","Analog 433MHz","TX","No","No","No","No","No","16","0","No","No","1x 23A 12V",""
