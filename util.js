@@ -1,16 +1,15 @@
+'use strict';
+
 function csvToJson(csv) {
   const header = [];
   const data = csv_parse_sync.parse(csv, {
+    skip_empty_lines: true,
     columns: function (columns) {
       header.push(...columns);
       return columns;
-    },
-    skip_empty_lines: true
+    }
   });
-  return {
-    header,
-    data
-  };
+  return { header, data };
 }
 
 function getCSV(url) {

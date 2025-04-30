@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html manifest="/Camera/manifest.appcache" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="none" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
+  <!-- <link type="application/manifest+json" rel="manifest" href="/Camera/manifest.webmanifest" /> -->
+  <link rel="icon" type="image/svg+xml" sizes="any" href="/Camera/favicon.svg" />
+  <link rel="apple-touch-icon" type="image/svg+xml" sizes="any" href="/Camera/favicon.svg" />
+  <meta name="apple-mobile-web-app-title" content="" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="application-name" content="" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="msapplication-starturl" content="/Camera/" />
+  <meta name="theme-color" content="#000000" />
+  <title>Neewer</title>
+  <link type="text/css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" href="../style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <a href="../index.html">Back</a>
+    <h1>Neewer</h1>
+    <h2>Current Triggers</h2>
+    <table id="currentTriggers" class="table table-bordered"></table>
+    <h2>On-Camera Flashes</h2>
+    <table id="onCameraFlashes" class="table table-bordered"></table>
+    <h2>Macro Flashes</h2>
+    <table id="macroFlashes" class="table table-bordered"></table>
+    <h2>Off-Camera Flashes</h2>
+    <table id="offCameraFlashes" class="table table-bordered"></table>
+    <h2>Studio Flashes</h2>
+    <table id="studioFlashes" class="table table-bordered"></table>
+  </div>
+
+  <script type="text/javascript" crossorigin="anonymous" referrerpolicy="no-referrer" src="https://cdn.jsdelivr.net/npm/core-js-bundle@latest/minified.min.js"></script>
+  <script type="text/javascript" crossorigin="anonymous" referrerpolicy="no-referrer" src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+  <script type="text/javascript" crossorigin="anonymous" referrerpolicy="no-referrer" src="https://cdn.jsdelivr.net/npm/csv-parse@latest/dist/iife/sync.min.js"></script>
+  <script type="text/javascript" crossorigin="anonymous" referrerpolicy="no-referrer" src="https://cdn.jsdelivr.net/gh/HubSpot/sortable@latest/js/sortable.min.js"></script>
+  <script type="text/javascript" crossorigin="anonymous" referrerpolicy="no-referrer" src="../util.js"></script>
+  <script type="text/javascript">
+    'use strict';
+
+    $(async function () {
+
+      const [currentTriggers, onCameraFlashes, macroFlashes, offCameraFlashes, studioFlashes] = await Promise.all([
+        getCSV("./currentTriggers.csv"),
+        getCSV("./onCameraFlashes.csv"),
+        getCSV("./macroFlashes.csv"),
+        getCSV("./offCameraFlashes.csv"),
+        getCSV("./studioFlashes.csv")
+      ]);
+
+      await Promise.all([
+        listToTable('currentTriggers', currentTriggers.data, currentTriggers.header),
+        listToTable('onCameraFlashes', onCameraFlashes.data, onCameraFlashes.header),
+        listToTable('macroFlashes', macroFlashes.data, macroFlashes.header),
+        listToTable('offCameraFlashes', offCameraFlashes.data, offCameraFlashes.header),
+        listToTable('studioFlashes', studioFlashes.data, studioFlashes.header)
+      ]);
+
+    });
+  </script>
+</body>
+
+</html>
