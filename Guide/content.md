@@ -7,7 +7,7 @@
 ## Contents
 
 1. [Terms/Acronyms/Abbreviations](#terms-acronyms-abbreviations)
-2. [Characteristics](#characteristics)
+2. [Attributes](#attributes)
    1. [Shutter Speed (SS)](#shutter-speed)
    2. [Aperture Value (AV)](#aperture-value)
    3. [ISO](#iso)
@@ -65,7 +65,7 @@
 - ↑ - Increase
 - ↓ - Decrease
 
-## Characteristics<a name="characteristics"></a>
+## Attributes<a name="attributes"></a>
 
 ![Exposure Diagram](exposure.png)
 
