@@ -1,5 +1,9 @@
 # Photography Guide
 
+<div id="content">
+
+<div id="left">
+
 ## Contents
 
 1. [Terms/Acronyms/Abbreviations](#terms-acronyms-abbreviations)
@@ -21,11 +25,11 @@
 4. [Normal Photography](#normal-photography)
 5. [Using Lights](#using-lights)
 6. [Shooting Scenarios](#shooting-scenarios)
-   1. [Normal Everyday Scene or Stills (e.g. Family, Friends, Portraits, etc.)](#normal-everyday-scene-or-stills-eg-family-friends-portraits-etc)
-   2. [Fast Motion (e.g. Sports, Wildlife, Jumping, etc.)](#fast-motion-eg-sports-wildlife-jumping-etc)
-   3. [Fast Moving Water Feature (e.g. Waterfall, River, etc.)](#fast-moving-water-feature-eg-waterfall-river-etc)
-   4. [Macro (e.g. Insects, Flowers, etc.)](#macro-eg-insects-flowers-etc)
-   5. [Multiple Exposures of Motion in a Single Shot (e.g. Ballet, etc.)](#multiple-exposures-of-motion-in-a-single-shot-eg-ballet-etc)
+   1. [Normal Everyday Scene or Stills](#normal-everyday-scene-or-stills-eg-family-friends-portraits-etc)
+   2. [Fast Motion](#fast-motion-eg-sports-wildlife-jumping-etc)
+   3. [Fast Moving Water Feature](#fast-moving-water-feature-eg-waterfall-river-etc)
+   4. [Macro](#macro-eg-insects-flowers-etc)
+   5. [Multiple Exposures of Motion in a Single Shot](#multiple-exposures-of-motion-in-a-single-shot-eg-ballet-etc)
 7. [Effects](#effects)
    1. [Motion Blur](#motion-blur)
       1. [Decrease Motion Blur](#decrease-motion-blur)
@@ -45,6 +49,10 @@
       2. [Make Background Orange](#make-background-orange)
    6. [Other Effects](#other-effects)
       1. [Add Bloom to Subject](#add-bloom-to-subject)
+
+</div>
+
+<div id="right">
 
 ## Terms/Acronyms/Abbreviations<a name="terms-acronyms-abbreviations"></a>
 
@@ -661,6 +669,10 @@
 [^12]: [202 Half C.T. Blue](https://leefilters.com/colour/202-half-c-t-blue/)
 [^13]: [203 Quarter C.T. Blue](https://leefilters.com/colour/203-quarter-c-t-blue/)
 [^14]: [218 Eighth C.T. Blue](https://leefilters.com/colour/218-eighth-c-t-blue/)
+
+</div>
+
+</div>
 
 <!--References-->
 <!--

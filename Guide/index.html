@@ -18,12 +18,28 @@
   <meta name="theme-color" content="#000000" />
   <title>Photography Guide</title>
   <link rel="preload" as="style" href="https://raw.githubusercontent.com/microsoft/vscode/refs/heads/main/extensions/markdown-language-features/media/markdown.css" />
-  <link type="text/css" rel="stylesheet" href="https://raw.githubusercontent.com/microsoft/vscode/refs/heads/main/extensions/markdown-language-features/media/markdown.css" />
   <link type="text/css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css">
   <!-- <link type="text/css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" href="./markdown.css"> -->
   <style>
     * {
       font-family: sans-serif !important;
+    }
+
+    @media (min-width: 1024px) {
+      #content {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      #left {
+        margin: 0px 1rem;
+        flex-shrink: 1;
+      }
+
+      #right {
+        margin: 0px 1rem;
+        flex-grow: 1;
+      }
     }
 
     blockquote {
@@ -48,7 +64,7 @@
 
   <div class="container">
     <a href="../index.html">Back</a>
-    <div id="content"></div>
+    <div id="markdown"></div>
   </div>
 
   <button type="button" id="scrollButton" class="btn btn-primary p-0" title="Scroll to the top">
@@ -68,7 +84,7 @@
     import markdownItAbbr from 'https://cdn.jsdelivr.net/npm/markdown-it-abbr@latest/+esm';
     import markdownItContainer from 'https://cdn.jsdelivr.net/npm/markdown-it-container@latest/+esm';
     import markdownItDeflist from 'https://cdn.jsdelivr.net/npm/markdown-it-deflist@latest/+esm';
-    import markdownItEmoji from 'https://cdn.jsdelivr.net/npm/markdown-it-emoji@latest/+esm';
+    import {full as markdownItEmoji} from 'https://cdn.jsdelivr.net/npm/markdown-it-emoji@latest/+esm';
     import markdownItFootnote from 'https://cdn.jsdelivr.net/npm/markdown-it-footnote@latest/+esm';
     import markdownItIns from 'https://cdn.jsdelivr.net/npm/markdown-it-ins@latest/+esm';
     import markdownItMark from 'https://cdn.jsdelivr.net/npm/markdown-it-mark@latest/+esm';
@@ -88,20 +104,23 @@
       .use(markdownItAbbr)
       .use(markdownItContainer)
       .use(markdownItDeflist)
+      .use(markdownItEmoji)
       .use(markdownItFootnote)
       .use(markdownItIns)
       .use(markdownItMark)
       .use(markdownItSub)
       .use(markdownItSup);
-      // .use(markdownItEmoji);
 
     const markdowncss = 'https://raw.githubusercontent.com/microsoft/vscode/refs/heads/main/extensions/markdown-language-features/media/markdown.css';
     const css = await $.get(markdowncss);
-    $('head').append(`<style>${css.replaceAll(';',' !important;')}</style>`);
+    $('head').append(`<style>${css.replaceAll(';', ' !important;')}</style>`);
 
     const content = await $.get('content.md');
     const result = md.render(content);
-    $('#content').html(result);
+    $('#markdown').html(result);
+
+    $('hr.footnotes-sep').remove();
+    $('section.footnotes').appendTo('#right');
 
     function scrollTo(value) {
       document.documentElement.scrollTop = value;
