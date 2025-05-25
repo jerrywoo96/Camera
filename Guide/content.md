@@ -458,8 +458,8 @@
    - Decide on how bright or how dark you would like your background to be.
    - Ignore the exposure of the subject.
 2. Add features to the subject by adding Lights one by one, and adjusting the power of the Light, to achieve desired Lighting Effect on the Subject.
-   - Double the distance away from the Light Source = 2 Stops increase in EV.
-   - Halving the distance away from the Light Source = 2 Stops decrease in EV.
+   - Doubling the distance away from the Light Source = Increase EV in Camera by 2 Stops.
+   - Halving the distance away from the Light Source = Decrease EV in Camera by 2 Stops.
 
 ## Shooting Scenarios<a name="shooting-scenarios"></a>
 
