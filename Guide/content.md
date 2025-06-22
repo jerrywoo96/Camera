@@ -12,7 +12,8 @@
    2. [Aperture Value (AV)](#aperture-value)
    3. [ISO](#iso)
    4. [Flash Power (FP)](#flash-power)
-   5. [Values](#values)
+   5. [Sensor Crop Factor](#sensor-crop-factor)
+   6. [Values](#values)
 3. [Compensate Side Effects](#compensate-side-effects)
    1. [Increase Shutter Speed](#increase-shutter-speed)
    2. [Decrease Shutter Speed](#decrease-shutter-speed)
@@ -24,6 +25,9 @@
    8. [Decrease Flash Power](#decrease-flash-power)
 4. [Normal Photography](#normal-photography)
 5. [Using Lights](#using-lights)
+    1. [Lighting Guide](#lighting-guide)
+    2. [Light Characteristics](#light-characteristics)
+    3. [Light Modifiers](#light-modifiers)
 6. [Shooting Scenarios](#shooting-scenarios)
    1. [Normal Everyday Scene or Stills](#normal-everyday-scene-or-stills-eg-family-friends-portraits-etc)
    2. [Fast Motion](#fast-motion-eg-sports-wildlife-jumping-etc)
@@ -43,11 +47,13 @@
    4. [Shadows](#shadows)
       1. [Sharper Shadows](#sharper-shadows)
       2. [Softer Shadows](#softer-shadows)
-      3. [Diffusion Methods](#diffusion-methods)
-   5. [Background Colour Temperature](#background-colour-temperature)
+   5. [Highlights](#highlights)
+      1. [Sharper Highlights](#sharper-highlights)
+      2. [Softer Highlights](#softer-highlights)
+   6. [Background Colour Temperature](#background-colour-temperature)
       1. [Make Background Blue](#make-background-blue)
       2. [Make Background Orange](#make-background-orange)
-   6. [Other Effects](#other-effects)
+   7. [Other Effects](#other-effects)
       1. [Add Bloom to Subject](#add-bloom-to-subject)
 
 </div>
@@ -101,6 +107,14 @@
     - Brighter (↑ SJ EV)
   - Lower (1/512 or 0.1)
     - Darker (↓ SJ EV)
+
+- Sensor Crop Factor<a name="sensor-crop-factor"></a>
+  - Does not affect Exposure, but affects:
+    - Focal Length
+      - Effective Focal Length = Focal Length x Crop Factor
+    - Aperture Value
+      - In terms of Depth of Field,
+      - Effective Aperture Value = Aperture Value x Crop Factor
 
 ### Values<a name="values"></a>
 
@@ -453,6 +467,8 @@
 
 ## Using Lights<a name="using-lights"></a>
 
+### Lighting Guide<a name="lighting-guide"></a>
+
 1. Always start by metering the exposure for the background as your base canvas.
    - DO NOT add lights at this stage.
    - Decide on how bright or how dark you would like your background to be.
@@ -460,6 +476,25 @@
 2. Add features to the subject by adding Lights one by one, and adjusting the power of the Light, to achieve desired Lighting Effect on the Subject.
    - Doubling the distance away from the Light Source = Increase EV in Camera by 2 Stops.
    - Halving the distance away from the Light Source = Decrease EV in Camera by 2 Stops.
+
+### Light Characteristics<a name="light-characteristics"></a>
+
+- Flat Surface Diffusers
+  - Redirects Light in a Single Direction Perpendicular to the Surface
+- Bulbous/Dome Diffusers
+  - Reflects Light in Multiple Directions Perpendicular to the Tangent of the Surface
+- More Diffusion Material
+  - Softens Highlights
+- Larger Reflectors/Surface/Light Source
+  - Softens Shadows
+- Flags
+  - Blocks Light from Spilling onto the Background or Subject
+
+### Light Modifiers<a name="light-modifiers"></a>
+
+- Softbox
+- Umbrella
+- Reflector
 
 ## Shooting Scenarios<a name="shooting-scenarios"></a>
 
@@ -597,19 +632,23 @@
 
 1. Move Subject Nearer To Surface
 2. Move Light Source Away From Subject
-3. Remove any Diffusion Material
+3. Use Smaller Light Source
 
 #### Softer Shadows<a name="softer-shadows"></a>
 
 1. Move Subject Away From Surface
 2. Move Light Source Nearer To Subject
-3. Use Diffusion Methods
+3. Use Larger Light Source
 
-#### Diffusion Methods<a name="diffusion-methods"></a>
+### Highlights<a name="highlights"></a>
 
-- Softbox
-- Umbrella
-- Reflector
+#### Sharper Highlights<a name="sharper-highlights"></a>
+
+1. Remove Diffusion Material
+
+#### Softer Highlights<a name="softer-highlights"></a>
+
+1. Add Diffusion Material
 
 ### Background Colour Temperature<a name="background-colour-temperature"></a>
 
