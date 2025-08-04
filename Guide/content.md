@@ -83,6 +83,10 @@
   - Slower (Smaller Denominator)
     - Brighter (↑ BG EV)
     - More Blur
+  - Set the Denominator of the Shutter Speed to the Full-Frame equivalent Focal Length or the next fastest for slowest shutter speed and lowest ISO without motion blur and lowest ISO grain noise.
+    - e.g. 1/50 for 50mm, 1/100 for 100mm, etc. on full-frame cameras.
+    - If using a Crop Sensor Camera, use the Effective Focal Length
+      - e.g. 1/75 for 50mm with 1.5x Crop Factor
 
 - Aperture Value (AV)<a name="aperture-value"></a>
 
