@@ -9,6 +9,7 @@
 "ES400P","400","Yes, Using XTR16","1x LiFePO4 Battery Pack","Yes","Yes","20000","Tungsten Bulb","32","1800","<1800","16","16","No","No","EOL"
 "RS400P","400","Yes, Using XTR16","1x LiFePO4 Battery Pack","Yes","Yes","12000","LED COB","32","1800","<1800","16","16","No","No","EOL"
 "AD400Pro","400","Yes, Built-In","1x WB400P","Yes","Yes","30000","LED COB","256","1000","10","32","5","Yes","Yes",""
+"AD400Pro II","400","Yes, Built-In","1x WB400P","Yes","Yes","30000","LED COB","512","1000","10","32","16","Yes","Yes",""
 "ES600P","600","Yes, Using XTR16","1x LiFePO4 Battery Pack","Yes","Yes","20000","Tungsten Bulb","32","2500","<2500","16","16","No","No","EOL"
 "RS600P","600","Yes, Using XTR16","1x LiFePO4 Battery Pack","Yes","Yes","12000","LED COB","32","2500","<2500","16","16","No","No","EOL"
 "AD600/AD600B","600","Yes, Built-In","1x WB87(B)","Yes","Yes","10000","LED COB","256","2500","10","32","5","Yes","Yes","EOL"
