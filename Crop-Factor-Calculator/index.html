@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html manifest="/Camera/manifest.appcache" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="none" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
+  <!-- <link type="application/manifest+json" rel="manifest" href="/Camera/manifest.webmanifest" /> -->
+  <link rel="icon" type="image/svg+xml" sizes="any" href="/Camera/favicon.svg" />
+  <link rel="apple-touch-icon" type="image/svg+xml" sizes="any" href="/Camera/favicon.svg" />
+  <meta name="apple-mobile-web-app-title" content="" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="application-name" content="" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="msapplication-starturl" content="/Camera/" />
+  <meta name="theme-color" content="#000000" />
+  <title>Crop Factor Calculator</title>
+  <script type="text/javascript" defer="defer" crossorigin="anonymous" referrerpolicy="no-referrer" src="https://cdn.jsdelivr.net/npm/core-js-bundle@latest/minified.min.js"></script>
+  <script type="text/javascript" defer="defer" crossorigin="anonymous" referrerpolicy="no-referrer" src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+  <script type="text/javascript" defer="defer" crossorigin="anonymous" referrerpolicy="no-referrer" src="/Crop-Factor-Calculator/script.js"></script>
+  <link type="text/css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css" />
+
+  <style>
+    h1 a {
+      color: white;
+      text-decoration: none;
+    }
+
+    #settings {
+      width: -moz-fit-content;
+      width: fit-content;
+    }
+
+    #settings td {
+      vertical-align: middle;
+      text-align: end;
+      border: none;
+    }
+
+    #settings input {
+      max-width: 100px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="mt-3">
+      <a href="../">Back</a>
+      <h1>Crop Factor Calculator</h1>
+
+      <table id="settings" class="table">
+        <thead>
+          <tr>
+            <th>Sensor Size</th>
+            <th>Crop Factor</th>
+            <th>Focal Length</th>
+            <th>Resolution</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><label for="70x60">60x70 Medium Format:<br />60mm x 70mm<br />6:7</label></td>
+            <td><input type="number" id="70x60" data-width="70" data-height="60" class="form-control crop-factor" placeholder="Crop Factor" title="Crop Factor" readonly="readonly" value="0.469" min="0.01" step="0.001"></td>
+            <td><input type="number" class="form-control focal-length" placeholder="Focal Length" title="Focal Length" value="1" min="1" step="1"></td>
+            <td><input type="number" class="form-control resolution" placeholder="Resolution" title="Resolution" value="1" min="1" step="1"></td>
+          </tr>
+          <tr>
+            <td><label for="60x45">60x45 Medium Format:<br />60mm x 45mm<br />4:3</label></td>
+            <td><input type="number" id="60x45" data-width="60" data-height="45" class="form-control crop-factor" placeholder="Crop Factor" title="Crop Factor" readonly="readonly" value="0.614" min="0.01" step="0.001"></td>
+            <td><input type="number" class="form-control focal-length" placeholder="Focal Length" title="Focal Length" value="1" min="1" step="1"></td>
+            <td><input type="number" class="form-control resolution" placeholder="Resolution" title="Resolution" value="1" min="1" step="1"></td>
+          </tr>
+          <tr>
+            <td><label for="54x40">54x40 Medium Format:<br />54mm x 40mm<br />4:3</label></td>
+            <td><input type="number" id="54x40" data-width="54" data-height="40" class="form-control crop-factor" placeholder="Crop Factor" title="Crop Factor" readonly="readonly" value="0.65" min="0.01" step="0.01"></td>
+            <td><input type="number" class="form-control focal-length" placeholder="Focal Length" title="Focal Length" value="1" min="1" step="1"></td>
+            <td><input type="number" class="form-control resolution" placeholder="Resolution" title="Resolution" value="1" min="1" step="1"></td>
+          </tr>
+          <tr>
+            <td><label for="44x33">44x33 Medium Format:<br />44mm x 33mm<br />4:3</label></td>
+            <td><input type="number" id="44x33" data-width="44" data-height="33" class="form-control crop-factor" placeholder="Crop Factor" title="Crop Factor" readonly="readonly" value="0.79" min="0.01" step="0.01"></td>
+            <td><input type="number" class="form-control focal-length" placeholder="Focal Length" title="Focal Length" value="50" min="1" step="1"></td>
+            <td><input type="number" class="form-control resolution" placeholder="Resolution" title="Resolution" value="50" min="1" step="1"></td>
+          </tr>
+          <tr class="selected">
+            <td><label for="36x24">Full Frame 35mm:<br />36mm x 24mm<br />3:2</label></td>
+            <td><input type="number" id="36x24" data-width="36" data-height="24" class="form-control crop-factor" placeholder="Crop Factor" title="Crop Factor" readonly="readonly" value="1" min="0.01" step="0.01"></td>
+            <td><input type="number" class="form-control focal-length" placeholder="Focal Length" title="Focal Length" value="50" min="1" step="1"></td>
+            <td><input type="number" class="form-control resolution" placeholder="Resolution" title="Resolution" value="33" min="1" step="1"></td>
+          </tr>
+          <tr>
+            <td><label for="24x16">APS-C:<br />24mm x 16mm<br />3:2</label></td>
+            <td><input type="number" id="24x16" data-width="24" data-height="16" class="form-control crop-factor" placeholder="Crop Factor" title="Crop Factor" readonly="readonly" value="1.5" min="0.01" step="0.01"></td>
+            <td><input type="number" class="form-control focal-length" placeholder="Focal Length" title="Focal Length" value="35" min="1" step="1"></td>
+            <td><input type="number" class="form-control resolution" placeholder="Resolution" title="Resolution" value="24" min="1" step="1"></td>
+          </tr>
+          <tr>
+            <td><label for="22x15">Canon APS-C:<br />22mm x 15mm<br />3:2</label></td>
+            <td><input type="number" id="22x15" data-width="22" data-height="15" class="form-control crop-factor" placeholder="Crop Factor" title="Crop Factor" readonly="readonly" value="1.6" min="0.01" step="0.01"></td>
+            <td><input type="number" class="form-control focal-length" placeholder="Focal Length" title="Focal Length" value="25" min="1" step="1"></td>
+            <td><input type="number" class="form-control resolution" placeholder="Resolution" title="Resolution" value="20" min="1" step="1"></td>
+          </tr>
+          <tr>
+            <td><label for="17x13">Four Thirds:<br />17mm x 13mm<br />4:3</label></td>
+            <td><input type="number" id="17x13" data-width="17" data-height="13" class="form-control crop-factor" placeholder="Crop Factor" title="Crop Factor" readonly="readonly" value="2" min="0.01" step="0.01"></td>
+            <td><input type="number" class="form-control focal-length" placeholder="Focal Length" title="Focal Length" value="20" min="1" step="1"></td>
+            <td><input type="number" class="form-control resolution" placeholder="Resolution" title="Resolution" value="16" min="1" step="1"></td>
+          </tr>
+          <tr>
+            <td><label for="13x9">1-inch:<br />13mm x 9mm<br />3:2</label></td>
+            <td><input type="number" id="13x9" data-width="13" data-height="9" class="form-control crop-factor" placeholder="Crop Factor" title="Crop Factor" readonly="readonly" value="2.72" min="0.01" step="0.01"></td>
+            <td><input type="number" class="form-control focal-length" placeholder="Focal Length" title="Focal Length" value="15" min="1" step="1"></td>
+            <td><input type="number" class="form-control resolution" placeholder="Resolution" title="Resolution" value="12" min="1" step="1"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+</html>
