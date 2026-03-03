@@ -12,7 +12,7 @@ $(function () {
     $('tbody tr:not(.selected)').each(function () {
       const cropFactor = parseFloat($(this).find('input.crop-factor').val());
       const focalLength = (selectedFocalLength * selectedCropFactor) / cropFactor;
-      $(this).find('input.focal-length').val(focalLength.toFixed(1));
+      $(this).find('input.focal-length').val(focalLength.toFixed(0));
 
       const width = parseFloat($(this).find('input.crop-factor').data('width'));
       const height = parseFloat($(this).find('input.crop-factor').data('height'));
