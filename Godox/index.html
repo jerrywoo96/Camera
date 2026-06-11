@@ -53,13 +53,13 @@
     $(async function () {
 
       const [currentTriggers, legacyTriggers, onCameraFlashes, macroFlashes, offCameraFlashes, studioFlashes, legacyStudioFlashes] = await Promise.all([
-        getCSV("./currentTriggers.csv"),
-        getCSV("./legacyTriggers.csv"),
-        getCSV("./onCameraFlashes.csv"),
-        getCSV("./macroFlashes.csv"),
-        getCSV("./offCameraFlashes.csv"),
-        getCSV("./studioFlashes.csv"),
-        getCSV("./legacyStudioFlashes.csv")
+        getCSV("https://github.com/jerrywoo96/Camera/raw/refs/heads/master/Godox/currentTriggers.csv"),
+        getCSV("https://github.com/jerrywoo96/Camera/raw/refs/heads/master/Godox/legacyTriggers.csv"),
+        getCSV("https://github.com/jerrywoo96/Camera/raw/refs/heads/master/Godox/onCameraFlashes.csv"),
+        getCSV("https://github.com/jerrywoo96/Camera/raw/refs/heads/master/Godox/macroFlashes.csv"),
+        getCSV("https://github.com/jerrywoo96/Camera/raw/refs/heads/master/Godox/offCameraFlashes.csv"),
+        getCSV("https://github.com/jerrywoo96/Camera/raw/refs/heads/master/Godox/studioFlashes.csv"),
+        getCSV("https://github.com/jerrywoo96/Camera/raw/refs/heads/master/Godox/legacyStudioFlashes.csv")
       ]);
 
       await Promise.all([
