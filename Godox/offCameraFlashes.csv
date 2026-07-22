@@ -1,4 +1,4 @@
-"Flashes","Pwr (Ws)","WL XCS","Battery","TTL","HSS","Modelling Lamp (mW)","Modelling Lamp Type","Min Pwr (1/n)","Max Recycle Time (ms)","Min Recycle Time (ms)","CHs","Grps","ID","FW Up","Remarks"
+"Flashes","Pwr (Ws)","WL XCS 2.4 GHz","Battery","TTL","HSS","Modelling Lamp (mW)","Modelling Lamp Type","Min Pwr (1/n)","Max Recycle Time (ms)","Min Recycle Time (ms)","CHs","Grps","ID","FW Up","Remarks"
 "Lux Master","Unknown","Yes, Built-In","Built-in Li-ion","Yes","Yes","0","No","256","1800","<1800","32","5","Yes","Yes",""
 "AD100Pro","100","Yes, Built-In","1x WB100(A/B/C)/VB30/VB26(A/B)","Yes","Yes","1800","LED","256","1500","10","32","5","Yes","Yes","Discontinued"
 "AD100Pro II","100","Yes, Built-In","1x WB100(A/B/C)/VB30/VB26(A/B)","Yes","Yes","2000","LED","256","1500","10","32","16","Yes","Yes",""
