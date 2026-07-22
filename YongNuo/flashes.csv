@@ -42,6 +42,7 @@
 
 "YN-968","60","C/N","Yes","4x AA","Yes","Yes","622/603","622","S1/S2/Sc/Sn","No","Yes"
 "YN-968 II","60","N","Yes","4x AA","Yes","Yes","622/603","622","S1/S2/Sc/Sn","No","Yes"
+"YN-968 III","60","S","Yes","4x AA","Yes","Yes","603/602","?","S1/S2","No","Yes"
 
 "YN-600EX-RT","60","C","Yes","4x AA","Yes","Yes","E3","E3","S1/S2/Sc/Sn","No","Yes"
 "YN-600EX-RT II","60","C","Yes","4x AA","Yes","Yes","E3","E3","S1/S2/Sc/Sn","C","Yes"
@@ -49,3 +50,4 @@
 "YN-686EX-RT","60","C","Yes","1x YN-BH2000","No","Yes","E3","E3","S1/S2/Sc/Sn","C","Yes"
 "YN-690EX-RT","60","C","Yes","1x LB-E1","No","Yes","E3","E3","S1/S2/Sc/Sn","C","Yes"
 "YN-968EX-RT","60","C","Yes","4x AA","Yes","Yes","E3","E3","S1/S2/Sc/Sn","No","Yes"
+"YN-968EX-RT III","60","C","Yes","4x AA","Yes","Yes","E3","E3","S1/S2","No","Yes"
