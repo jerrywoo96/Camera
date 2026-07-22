@@ -17,7 +17,7 @@
 "TT660II","GN58","No","4x AA","No","Mounted on CellsII Only","No","0","128","0","0","Yes","No","EOL"
 "TT680","GN58","No","4x AA","Yes","Yes","Yes","0","128","0","0","Yes","Yes","EOL"
 "Lux Junior","GN12","No","2x AAA","No","No","No","0","64","0","0","No","No",""
-"Lux Junior II","GN18","Yes (Slave Only)","Built-in Li-ion","Yes","Yes","No","0","128","32","4","No","Yes",""
+"Lux Junior II","GN18","Yes, Built-In, RX Only","Built-in Li-ion","Yes","Yes","No","0","128","32","4","No","Yes",""
 "Lux Senior","GN14","No","Built-in Li-ion","No","No","No","0","64","0","0","No","No",""
 "Lux Elf","GN6","No","Built-in Li-ion","No","No","No","0","16","0","0","No","No",""
 "Lux Cadet","GN10","No","Built-in Li-ion","No","No","No","0","64","0","0","No","No",""
