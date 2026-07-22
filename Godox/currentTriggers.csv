@@ -17,4 +17,4 @@
 "XTR16S","2.4 GHz","RX","No","Yes","No","No","No","16","16","No","No","From Flash","EOL"
 "FT433","Digital 433 MHz","TX","Yes","Yes","No","Yes","Yes","32","16","Yes","Yes","2x AA",""
 "FR433","Digital 433 MHz","RX","Yes","Yes","No","No","No","32","16","Yes","No","From Flash",""
-"RT-16","Analog 433MHz","TX","No","No","No","No","No","16","0","No","No","1x 23A 12V",""
+"RT-16","Analog 433 MHz","TX","No","No","No","No","No","16","0","No","No","1x 23A 12V",""
